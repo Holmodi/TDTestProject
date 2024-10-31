@@ -1,0 +1,59 @@
+# Ignore Visual Studio files
+.vscode/
+*.code-workspace
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.pdb
+
+# Ignore Unreal Engine specific files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.tmp
+*.log
+*.vs
+*.suo
+*.xcodeproj
+.DS_Store
+.vscode/
+Build/Android/
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore build artifacts
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.app
+*.ipa
+*.apk
+*.iOS
+
+# Ignore the following folders (Unreal Engine temp files)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Android/Intermediate/
+
+# Ignore large files
+*.pdb
+*.dmp
+*.exe
+*.dll
